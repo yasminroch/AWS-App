@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>livros a venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Armazém de livros - livros para venda</h1>
+    
+    <!-- Formulário para adicionar livros -->
+    <form id="table-form">
+        <label for="name">Nome do livro:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="description">Descrição:</label>
+        <input type="text" id="description" name="description" required><br>
+
+        <label for="value">Valor em R$:</label>
+        <input type="number" id="value" name="value" required><br>
+
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="category">Categoria/tipo:</label>
+        <input type="text" id="category" name="category" required><br>
+
+        <button type="submit" id="btn">Adicionar livro</button>
+    </form>
+    
+    <!-- Listagem de livros -->
+    <table id="book-table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Data</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+        <tbody id="book-table-body">
+            <!-- Linhas da tabela serão adicionadas dinamicamente -->
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

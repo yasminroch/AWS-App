@@ -20,6 +20,15 @@ O EC2 é a máquina virtual, é onde a minha aplicação estará alocada e acess
 Para desenvolver a aplicação, foi usado linguagem de marcação HTML e CSS para o front-end, já para criar o back-end foi usado a linguagem JavaScript e o framework Express
 
 ## Organização
+-> Node Modules<br>
+-> venv (ambiente virtual)<br>
+-> app.js (back-end)<br>
+-> index.html (front-end em html)<br>
+-> index.js (métodos get e post no front-end)<br>
+-> package-lock.json<br>
+-> package.json<br>
+-> requirements.txt<br>
+-> style.css (estilização do front-end html)
 
 ## Demo
-link do vídeo de apresentação da aplicação:
+link do vídeo de apresentação da aplicação: https://youtu.be/7A7WUKpHiMk
